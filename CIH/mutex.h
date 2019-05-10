@@ -18,7 +18,7 @@ HANDLE CreateOneAppMutex(LPCTSTR lpName)
         // Mutex already exists so there is a 
         // running instance of our app.
         hMutex = NULL;
-		ExitProcess(true);
+	ExitProcess(true);
         break;
  
     default:
